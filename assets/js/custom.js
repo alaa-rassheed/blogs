@@ -43,7 +43,7 @@
         speed: 1500,
         spaceBetween: 30,
         loop: false,
-        // autoplay: { delay: 2500, disableOnInteraction: false, pauseOnMouseEnter: true, },
+        autoplay: { delay: 2500, disableOnInteraction: false, pauseOnMouseEnter: true, },
         navigation: { nextEl: ".next-2", prevEl: ".prev-2" },
         breakpoints: {
             280: { slidesPerView: 1 },
