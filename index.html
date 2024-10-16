@@ -1,0 +1,1492 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+    <link rel="stylesheet" href="assets/css/jquery.fancybox.min.css">
+
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet" href="assets/css/nice-select.css">
+
+    <link rel="stylesheet" href="assets/css/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="assets/css/boxicons.min.css">
+
+    <link rel="stylesheet" href="assets/css/style.min.css">
+    <title>مستقبل وطن نيوز</title>
+    <!-- <link rel="icon" href="assets/image/sm-logo.svg" type="image/gif" sizes="20x20"> -->
+</head>
+
+<body id="body">
+
+    <div class="circle-container">
+        <svg class="circle-progress svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"
+                style="transition: stroke-dashoffset 10ms linear 0s; stroke-dasharray: 307.919; stroke-dashoffset: 256.939;">
+            </path>
+        </svg>
+    </div>
+    <div class="sidebar-menu">
+        <div class="mobile-logo-area d-flex justify-content-between align-items-center">
+            <div class="header-logo">
+                <a href="index.html"><img alt="image" width="256" class="img-fluid dark"
+                        src="assets/image/logo.png"></a>
+                <a href="index.html"><img alt="image" width="256" class="img-fluid light"
+                        src="assets/image/logo.png"></a>
+            </div>
+            <div class="menu-button menu-close-btn">
+                <i class="bi bi-x"></i>
+            </div>
+        </div>
+        <ul class="menu-list">
+            <li class="active">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                    <path d=" M12.71 2.29a1 1 0 0 0-1.42 0l-9 9a1 1 0 0 0 0 1.42A1 1 0 0 0 3 13h1v7a2 2 0
+                    0 0 2 2h12a2 2 0 0 0 2-2v-7h1a1 1 0 0 0 1-1 1 1 0 0 0-.29-.71zM6 20v-9.59l6-6 6
+                    6V20z">
+                    </path>
+                </svg>
+                <a href="index.html">
+                    الرئيسية
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    أخبار
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    سياسة
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    حوادث
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    رياضة
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    اقتصاد وبورصة
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    عرب وعالم
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    مستقبل وطن
+                </a>
+            </li>
+        </ul>
+        <div class="menu-bottom-content">
+            <div class="social-wrap">
+                <h6>تابعنا علي منصات التواصل الاجتماعي</h6>
+                <ul class="social-area">
+                    <li>
+                        <a href="https://www.facebook.com/">
+                            <svg width="14" height="14" viewBox="0 0 14 14" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M7.81526 12.2483V7.46726H9.42818L9.66793 5.59534H7.81526V4.40301C7.81526 3.86284 7.96576 3.49301 8.74101 3.49301H9.72334V1.82409C9.24538 1.77287 8.76495 1.74814 8.28426 1.75001C6.85859 1.75001 5.87976 2.62034 5.87976 4.21809V5.59184H4.27734V7.46376H5.88326V12.2483H7.81526Z">
+                                </path>
+                            </svg>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://x.com/">
+                            <svg width="12" height="12" viewBox="0 0 14 14" xmlns="http://www.w3.org/2000/svg">
+                                <g>
+                                    <path
+                                        d="M11.025 0.65625H13.1722L8.48225 6.0305L14 13.3438H9.68012L6.2965 8.9075L2.42462 13.3438H0.2765L5.29287 7.595L0 0.65625H4.43013L7.48825 4.71012L11.025 0.65625ZM10.2725 12.0557H11.4625L3.78262 1.87687H2.50688L10.2725 12.0557Z">
+                                    </path>
+                                </g>
+                            </svg>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/">
+                            <svg width="14" height="14" viewBox="0 0 14 14" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M2.90719 4.1972C3.61209 4.1972 4.18353 3.62576 4.18353 2.92086C4.18353 2.21597 3.61209 1.64453 2.90719 1.64453C2.20229 1.64453 1.63086 2.21597 1.63086 2.92086C1.63086 3.62576 2.20229 4.1972 2.90719 4.1972Z">
+                                </path>
+                                <path
+                                    d="M5.38752 5.16523V12.2463H7.5861V8.74457C7.5861 7.82057 7.75994 6.92573 8.9056 6.92573C10.0355 6.92573 10.0495 7.98215 10.0495 8.8029V12.2469H12.2493V8.36365C12.2493 6.45615 11.8386 4.99023 9.60911 4.99023C8.53869 4.99023 7.82119 5.57765 7.52777 6.13357H7.49802V5.16523H5.38752ZM1.80469 5.16523H4.00677V12.2463H1.80469V5.16523Z">
+                                </path>
+                            </svg>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/">
+                            <svg width="14" height="14" viewBox="0 0 14 14" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M12.2191 4.84492C12.2132 4.40312 12.1305 3.96571 11.9747 3.55226C11.8396 3.20351 11.6332 2.88679 11.3687 2.62233C11.1043 2.35786 10.7875 2.15147 10.4388 2.01634C10.0307 1.86313 9.59948 1.78029 9.16362 1.77134C8.60246 1.74626 8.42454 1.73926 7.00004 1.73926C5.57554 1.73926 5.39296 1.73926 4.83587 1.77134C4.40022 1.78036 3.96924 1.8632 3.56129 2.01634C3.21249 2.15138 2.89572 2.35773 2.63124 2.62221C2.36677 2.88669 2.16041 3.20346 2.02537 3.55226C1.87186 3.96008 1.7892 4.39116 1.78096 4.82684C1.75587 5.38859 1.74829 5.56651 1.74829 6.99101C1.74829 8.41551 1.74829 8.59751 1.78096 9.15517C1.78971 9.59151 1.87196 10.022 2.02537 10.4309C2.16064 10.7796 2.36715 11.0963 2.63171 11.3606C2.89628 11.625 3.21308 11.8313 3.56187 11.9663C3.96871 12.1256 4.39976 12.2144 4.83646 12.2288C5.39821 12.2538 5.57612 12.2614 7.00062 12.2614C8.42512 12.2614 8.60771 12.2614 9.16479 12.2288C9.60063 12.2202 10.0318 12.1375 10.44 11.9843C10.7886 11.8491 11.1053 11.6426 11.3697 11.3782C11.6341 11.1137 11.8406 10.7971 11.9759 10.4484C12.1293 10.0401 12.2115 9.60959 12.2203 9.17267C12.2454 8.61151 12.253 8.43359 12.253 7.00851C12.2518 5.58401 12.2518 5.40317 12.2191 4.84492ZM6.99654 9.68484C5.50671 9.68484 4.29979 8.47792 4.29979 6.98809C4.29979 5.49826 5.50671 4.29134 6.99654 4.29134C7.71176 4.29134 8.39769 4.57546 8.90343 5.0812C9.40917 5.58694 9.69329 6.27287 9.69329 6.98809C9.69329 7.70331 9.40917 8.38924 8.90343 8.89498C8.39769 9.40072 7.71176 9.68484 6.99654 9.68484ZM9.80062 4.82042C9.71802 4.8205 9.63622 4.80429 9.55989 4.77271C9.48356 4.74114 9.41421 4.69482 9.3558 4.63641C9.29739 4.57801 9.25108 4.50865 9.2195 4.43233C9.18793 4.356 9.17171 4.27419 9.17179 4.19159C9.17179 4.10905 9.18805 4.02732 9.21964 3.95106C9.25122 3.8748 9.29752 3.80551 9.35589 3.74714C9.41425 3.68878 9.48354 3.64248 9.5598 3.61089C9.63606 3.57931 9.71779 3.56305 9.80033 3.56305C9.88287 3.56305 9.96461 3.57931 10.0409 3.61089C10.1171 3.64248 10.1864 3.68878 10.2448 3.74714C10.3031 3.80551 10.3494 3.8748 10.381 3.95106C10.4126 4.02732 10.4289 4.10905 10.4289 4.19159C10.4289 4.53926 10.1477 4.82042 9.80062 4.82042Z">
+                                </path>
+                                <path
+                                    d="M6.99589 8.73983C7.96336 8.73983 8.74764 7.95554 8.74764 6.98808C8.74764 6.02061 7.96336 5.23633 6.99589 5.23633C6.02843 5.23633 5.24414 6.02061 5.24414 6.98808C5.24414 7.95554 6.02843 8.73983 6.99589 8.73983Z">
+                                </path>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="header-area2">
+        <div class="container d-flex align-items-center justify-content-between">
+            <div class="header-menu-icon">
+                <div class="menu-icon">
+                    <svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M1.66675 9.16666H18.3334V10.8333H1.66675V9.16666ZM1.66675 4.16666H18.3334V5.83332H1.66675V4.16666ZM1.66675 14.1667H18.3334V15.8333H1.66675V14.1667Z" />
+                    </svg>
+                </div>
+                <div class="tt-style-switch">
+                    <i class="bi bi-moon"></i>
+                </div>
+            </div>
+            <div class="header-logo">
+                <a href="index.html"><img alt="image" class="img-fluid dark" src="assets/image/logo.png"
+                        width="256"></a>
+                <a href="index.html"><img alt="image" class="img-fluid light" src="assets/image/logo.png"
+                        width="256"></a>
+            </div>
+            <div class="header-right d-md-flex d-none">
+                <div class="search-bar">
+                    <div class="search-btn">
+                        <svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M7.67458 2.95934C5.06925 2.95934 2.95925 5.06868 2.95925 7.66868C2.95925 10.2687 5.06925 12.3773 7.67458 12.3773C8.97459 12.3773 10.1499 11.8533 11.0033 11.004C11.4434 10.5674 11.7926 10.0477 12.0307 9.47524C12.2687 8.90273 12.3908 8.28869 12.3899 7.66868C12.3899 5.06868 10.2799 2.95934 7.67458 2.95934ZM1.33325 7.66868C1.33325 4.16868 4.17325 1.33334 7.67458 1.33334C11.1759 1.33334 14.0159 4.16868 14.0159 7.66868C14.0178 9.07185 13.5516 10.4356 12.6913 11.544L14.4279 13.2787C14.5084 13.353 14.573 13.4427 14.618 13.5426C14.6629 13.6424 14.6872 13.7503 14.6894 13.8598C14.6916 13.9693 14.6717 14.0781 14.6309 14.1797C14.59 14.2813 14.5291 14.3736 14.4517 14.4511C14.3743 14.5286 14.2821 14.5896 14.1805 14.6306C14.079 14.6716 13.9702 14.6916 13.8607 14.6895C13.7512 14.6874 13.6433 14.6632 13.5434 14.6184C13.4435 14.5736 13.3536 14.5091 13.2793 14.4287L11.5393 12.6913C10.4316 13.544 9.07244 14.0054 7.67458 14.0033C4.17325 14.0033 1.33325 11.168 1.33325 7.66868Z" />
+                        </svg>
+                    </div>
+                    <div class="search-input">
+                        <div class="serch-close"></div>
+                        <form>
+                            <div class="search-group">
+                                <div class="form-inner2">
+                                    <input type="text" placeholder="بحث">
+                                    <button type="submit">
+                                        <svg width="16" height="16" viewBox="0 0 16 16"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M7.67458 2.95934C5.06925 2.95934 2.95925 5.06868 2.95925 7.66868C2.95925 10.2687 5.06925 12.3773 7.67458 12.3773C8.97459 12.3773 10.1499 11.8533 11.0033 11.004C11.4434 10.5674 11.7926 10.0477 12.0307 9.47524C12.2687 8.90273 12.3908 8.28869 12.3899 7.66868C12.3899 5.06868 10.2799 2.95934 7.67458 2.95934ZM1.33325 7.66868C1.33325 4.16868 4.17325 1.33334 7.67458 1.33334C11.1759 1.33334 14.0159 4.16868 14.0159 7.66868C14.0178 9.07185 13.5516 10.4356 12.6913 11.544L14.4279 13.2787C14.5084 13.353 14.573 13.4427 14.618 13.5426C14.6629 13.6424 14.6872 13.7503 14.6894 13.8598C14.6916 13.9693 14.6717 14.0781 14.6309 14.1797C14.59 14.2813 14.5291 14.3736 14.4517 14.4511C14.3743 14.5286 14.2821 14.5896 14.1805 14.6306C14.079 14.6716 13.9702 14.6916 13.8607 14.6895C13.7512 14.6874 13.6433 14.6632 13.5434 14.6184C13.4435 14.5736 13.3536 14.5091 13.2793 14.4287L11.5393 12.6913C10.4316 13.544 9.07244 14.0054 7.67458 14.0033C4.17325 14.0033 1.33325 11.168 1.33325 7.66868Z" />
+                                        </svg>
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="subscribe-btn ">
+                    <a href="javascript:;" class="primary-btn hover-btn">
+                        <svg class="arrow" width="11" height="11" viewBox="0 0 11 11"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M0.999756 10L9.99976 1M9.99976 1C7.99976 1.375 3.62476 2.125 0.999756 1M9.99976 1C9.62476 2.875 8.87476 7 9.99976 10"
+                                stroke="#191919" stroke-width="1.5" stroke-linecap="round" />
+                        </svg>
+                        <div id="date-display"></div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <header class="life-style d-lg-flex d-none">
+        <div class="container-md">
+            <div class="col-lg-12">
+                <div class="header-wrapper">
+                    <div class="main-menu">
+                        <ul class="menu-list">
+                            <li class="active">
+                                <a href="index.html">
+                                    الرئيسية
+                                </a>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                    <path d=" M12.71 2.29a1 1 0 0 0-1.42 0l-9 9a1 1 0 0 0 0 1.42A1 1 0 0 0 3 13h1v7a2 2 0
+                                    0 0 2 2h12a2 2 0 0 0 2-2v-7h1a1 1 0 0 0 1-1 1 1 0 0 0-.29-.71zM6 20v-9.59l6-6 6
+                                    6V20z">
+                                    </path>
+                                </svg>
+                            </li>
+                            <li>
+                                <a href="">
+                                    أخبار
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    سياسة
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    حوادث
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    رياضة
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    اقتصاد وبورصة
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    عرب وعالم
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    مستقبل وطن
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="nav-right d-flex jsutify-content-end align-items-center">
+                        <ul class="social-area">
+                            <li>
+                                <a href="https://www.facebook.com/">
+                                    <svg width="14" height="14" viewBox="0 0 14 14" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M7.81526 12.2483V7.46726H9.42818L9.66793 5.59534H7.81526V4.40301C7.81526 3.86284 7.96576 3.49301 8.74101 3.49301H9.72334V1.82409C9.24538 1.77287 8.76495 1.74814 8.28426 1.75001C6.85859 1.75001 5.87976 2.62034 5.87976 4.21809V5.59184H4.27734V7.46376H5.88326V12.2483H7.81526Z">
+                                        </path>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://x.com/">
+                                    <svg width="12" height="12" viewBox="0 0 14 14" xmlns="http://www.w3.org/2000/svg">
+                                        <g>
+                                            <path
+                                                d="M11.025 0.65625H13.1722L8.48225 6.0305L14 13.3438H9.68012L6.2965 8.9075L2.42462 13.3438H0.2765L5.29287 7.595L0 0.65625H4.43013L7.48825 4.71012L11.025 0.65625ZM10.2725 12.0557H11.4625L3.78262 1.87687H2.50688L10.2725 12.0557Z">
+                                            </path>
+                                        </g>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.linkedin.com/">
+                                    <svg width="14" height="14" viewBox="0 0 14 14" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M2.90719 4.1972C3.61209 4.1972 4.18353 3.62576 4.18353 2.92086C4.18353 2.21597 3.61209 1.64453 2.90719 1.64453C2.20229 1.64453 1.63086 2.21597 1.63086 2.92086C1.63086 3.62576 2.20229 4.1972 2.90719 4.1972Z">
+                                        </path>
+                                        <path
+                                            d="M5.38752 5.16523V12.2463H7.5861V8.74457C7.5861 7.82057 7.75994 6.92573 8.9056 6.92573C10.0355 6.92573 10.0495 7.98215 10.0495 8.8029V12.2469H12.2493V8.36365C12.2493 6.45615 11.8386 4.99023 9.60911 4.99023C8.53869 4.99023 7.82119 5.57765 7.52777 6.13357H7.49802V5.16523H5.38752ZM1.80469 5.16523H4.00677V12.2463H1.80469V5.16523Z">
+                                        </path>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.instagram.com/">
+                                    <svg width="14" height="14" viewBox="0 0 14 14" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M12.2191 4.84492C12.2132 4.40312 12.1305 3.96571 11.9747 3.55226C11.8396 3.20351 11.6332 2.88679 11.3687 2.62233C11.1043 2.35786 10.7875 2.15147 10.4388 2.01634C10.0307 1.86313 9.59948 1.78029 9.16362 1.77134C8.60246 1.74626 8.42454 1.73926 7.00004 1.73926C5.57554 1.73926 5.39296 1.73926 4.83587 1.77134C4.40022 1.78036 3.96924 1.8632 3.56129 2.01634C3.21249 2.15138 2.89572 2.35773 2.63124 2.62221C2.36677 2.88669 2.16041 3.20346 2.02537 3.55226C1.87186 3.96008 1.7892 4.39116 1.78096 4.82684C1.75587 5.38859 1.74829 5.56651 1.74829 6.99101C1.74829 8.41551 1.74829 8.59751 1.78096 9.15517C1.78971 9.59151 1.87196 10.022 2.02537 10.4309C2.16064 10.7796 2.36715 11.0963 2.63171 11.3606C2.89628 11.625 3.21308 11.8313 3.56187 11.9663C3.96871 12.1256 4.39976 12.2144 4.83646 12.2288C5.39821 12.2538 5.57612 12.2614 7.00062 12.2614C8.42512 12.2614 8.60771 12.2614 9.16479 12.2288C9.60063 12.2202 10.0318 12.1375 10.44 11.9843C10.7886 11.8491 11.1053 11.6426 11.3697 11.3782C11.6341 11.1137 11.8406 10.7971 11.9759 10.4484C12.1293 10.0401 12.2115 9.60959 12.2203 9.17267C12.2454 8.61151 12.253 8.43359 12.253 7.00851C12.2518 5.58401 12.2518 5.40317 12.2191 4.84492ZM6.99654 9.68484C5.50671 9.68484 4.29979 8.47792 4.29979 6.98809C4.29979 5.49826 5.50671 4.29134 6.99654 4.29134C7.71176 4.29134 8.39769 4.57546 8.90343 5.0812C9.40917 5.58694 9.69329 6.27287 9.69329 6.98809C9.69329 7.70331 9.40917 8.38924 8.90343 8.89498C8.39769 9.40072 7.71176 9.68484 6.99654 9.68484ZM9.80062 4.82042C9.71802 4.8205 9.63622 4.80429 9.55989 4.77271C9.48356 4.74114 9.41421 4.69482 9.3558 4.63641C9.29739 4.57801 9.25108 4.50865 9.2195 4.43233C9.18793 4.356 9.17171 4.27419 9.17179 4.19159C9.17179 4.10905 9.18805 4.02732 9.21964 3.95106C9.25122 3.8748 9.29752 3.80551 9.35589 3.74714C9.41425 3.68878 9.48354 3.64248 9.5598 3.61089C9.63606 3.57931 9.71779 3.56305 9.80033 3.56305C9.88287 3.56305 9.96461 3.57931 10.0409 3.61089C10.1171 3.64248 10.1864 3.68878 10.2448 3.74714C10.3031 3.80551 10.3494 3.8748 10.381 3.95106C10.4126 4.02732 10.4289 4.10905 10.4289 4.19159C10.4289 4.53926 10.1477 4.82042 9.80062 4.82042Z">
+                                        </path>
+                                        <path
+                                            d="M6.99589 8.73983C7.96336 8.73983 8.74764 7.95554 8.74764 6.98808C8.74764 6.02061 7.96336 5.23633 6.99589 5.23633C6.02843 5.23633 5.24414 6.02061 5.24414 6.98808C5.24414 7.95554 6.02843 8.73983 6.99589 8.73983Z">
+                                        </path>
+                                    </svg>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Banner -->
+    <div class="banner-area2 mb-60">
+        <div class="container">
+            <div class="row ">
+                <div class="col-lg-12 position-relative">
+                    <div class="slider-btn-groups">
+                        <div class="slider-btn prev-2">
+                            <span class="two"> السابق</span>
+                            <!-- Right Arrow -->
+                            <svg width="7" height="14" viewBox="0 0 7 14" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M7 7.00008L0 0L4.45455 7.00008L0 14L7 7.00008Z" />
+                            </svg>
+                        </div>
+                        <div class="slider-btn next-2">
+                            <!-- Left Arrow -->
+                            <svg width="7" height="14" viewBox="0 0 7 14" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M0 7.00008L7 0L2.54545 7.00008L7 14L0 7.00008Z" />
+                            </svg>
+                            <span>التالي</span>
+                        </div>
+                    </div>
+                    <div class="swiper banner-slider2">
+                        <div class="swiper-wrapper">
+                            <!-- Slide 1 -->
+                            <div class="swiper-slide wow fadeInUp" data-wow-delay="0.4s">
+                                <div class="banner-card">
+                                    <div class="banner-img">
+                                        <img src="assets/image/banner/slide-1.jpg" alt="slider">
+                                    </div>
+                                    <div class="banner-content">
+                                        <div class="catagory">
+                                            <a href="javascript:;">
+                                                سياسة
+                                            </a>
+                                        </div>
+                                        <div class="banner-content-bottom">
+                                            <div class="author-area">
+                                                <ul>
+                                                    <li>
+                                                        <a class="publish-date" href="javascript:;">
+                                                            19, اكتوبر, 2024
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <h2>
+                                                <a href="javascript:;">
+                                                    هناك حقيقة مثبتة منذ زمن طويل
+                                                </a>
+                                            </h2>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Slide 2 -->
+                            <div class="swiper-slide wow fadeIn" data-wow-delay="0.6s">
+                                <div class="banner-card">
+                                    <div class="banner-img">
+                                        <img src="assets/image/banner/slide-2.jpg" alt="slider">
+                                    </div>
+                                    <div class="banner-content">
+                                        <div class="catagory">
+                                            <a href="javascript:;">
+                                                صور
+                                            </a>
+                                        </div>
+                                        <div class="banner-content-bottom">
+                                            <div class="author-area">
+                                                <ul>
+                                                    <li>
+                                                        <a class="publish-date" href="javascript:;">
+                                                            19, اكتوبر, 2024
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <h2>
+                                                <a href="javascript:;">
+                                                    هناك حقيقة مثبتة منذ زمن طويل
+                                                </a>
+                                            </h2>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Slide 3 -->
+                            <div class="swiper-slide wow fadeInDown" data-wow-delay="0.8s">
+                                <div class="banner-card">
+                                    <div class="banner-img">
+                                        <img src="assets/image/banner/slide-3.jpg" alt="slider">
+                                    </div>
+                                    <div class="banner-content">
+                                        <div class="catagory">
+                                            <a href="javascript:;">
+                                                رياضة
+                                            </a>
+                                        </div>
+                                        <div class="banner-content-bottom">
+                                            <div class="author-area">
+                                                <ul>
+                                                    <li>
+                                                        <a class="publish-date" href="javascript:;">
+                                                            19, اكتوبر, 2024
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <h2>
+                                                <a href="javascript:;">
+                                                    هناك حقيقة مثبتة منذ زمن طويل
+                                                </a>
+                                            </h2>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Slide 1 -->
+                            <div class="swiper-slide">
+                                <div class="banner-card">
+                                    <div class="banner-img">
+                                        <img src="assets/image/banner/slide-1.jpg" alt="slider">
+                                    </div>
+                                    <div class="banner-content">
+                                        <div class="catagory">
+                                            <a href="javascript:;">
+                                                سياسة
+                                            </a>
+                                        </div>
+                                        <div class="banner-content-bottom">
+                                            <div class="author-area">
+                                                <ul>
+                                                    <li>
+                                                        <a class="publish-date" href="javascript:;">
+                                                            19, اكتوبر, 2024
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <h2>
+                                                <a href="javascript:;">
+                                                    هناك حقيقة مثبتة منذ زمن طويل
+                                                </a>
+                                            </h2>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Slide 2 -->
+                            <div class="swiper-slide">
+                                <div class="banner-card">
+                                    <div class="banner-img">
+                                        <img src="assets/image/banner/slide-2.jpg" alt="slider">
+                                    </div>
+                                    <div class="banner-content">
+                                        <div class="catagory">
+                                            <a href="javascript:;">
+                                                صور
+                                            </a>
+                                        </div>
+                                        <div class="banner-content-bottom">
+                                            <div class="author-area">
+                                                <ul>
+                                                    <li>
+                                                        <a class="publish-date" href="javascript:;">
+                                                            19, اكتوبر, 2024
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <h2>
+                                                <a href="javascript:;">
+                                                    هناك حقيقة مثبتة منذ زمن طويل
+                                                </a>
+                                            </h2>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Slide 3 -->
+                            <div class="swiper-slide">
+                                <div class="banner-card">
+                                    <div class="banner-img">
+                                        <img src="assets/image/banner/slide-3.jpg" alt="slider">
+                                    </div>
+                                    <div class="banner-content">
+                                        <div class="catagory">
+                                            <a href="javascript:;">
+                                                رياضة
+                                            </a>
+                                        </div>
+                                        <div class="banner-content-bottom">
+                                            <div class="author-area">
+                                                <ul>
+                                                    <li>
+                                                        <a class="publish-date" href="javascript:;">
+                                                            19, اكتوبر, 2024
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <h2>
+                                                <a href="javascript:;">
+                                                    هناك حقيقة مثبتة منذ زمن طويل
+                                                </a>
+                                            </h2>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Latest News -->
+    <div class="exclusive-section mb-60">
+        <div class="container">
+            <div class="row mb-25">
+                <div
+                    class="col-lg-12 d-flex align-items-center justify-content-between gap-3 flex-wrap position-relative">
+                    <div class="section-title">
+                        <h5>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                style="fill: var(--text-color);">
+                                <path
+                                    d="M12 2C6.486 2 2 6.486 2 12s4.486 10 10 10 10-4.486 10-10S17.514 2 12 2zM4 12c0-.899.156-1.762.431-2.569L6 11l2 2v2l2 2 1 1v1.931C7.061 19.436 4 16.072 4 12zm14.33 4.873C17.677 16.347 16.687 16 16 16v-1a2 2 0 0 0-2-2h-4v-3a2 2 0 0 0 2-2V7h1a2 2 0 0 0 2-2v-.411C17.928 5.778 20 8.65 20 12a7.947 7.947 0 0 1-1.67 4.873z">
+                                </path>
+                            </svg>
+                            أحدث الاخبار
+                        </h5>
+                    </div>
+                    <div class="slider-btn-groups">
+                        <div class="slider-btn prev-1">
+                            <!-- Left Arrow -->
+                            <svg width="7" height="14" viewBox="0 0 7 14" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M0 7.00008L7 0L2.54545 7.00008L7 14L0 7.00008Z" />
+                            </svg>
+                        </div>
+                        <div class="slider-btn next-1">
+                            <!-- Right Arrow -->
+                            <svg width="7" height="14" viewBox="0 0 7 14" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M7 7.00008L0 0L4.45455 7.00008L0 14L7 7.00008Z" />
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="swiper exclusive-episode-swiper">
+                        <div class="swiper-wrapper">
+                            <!-- Slide 1 -->
+                            <div class="swiper-slide">
+                                <div class="exclusive-content">
+                                    <div class="content-img">
+                                        <a href="javascript:;"><img src="assets/image/recent-1.jpg" alt></a>
+                                    </div>
+                                    <div class="publish-date">
+                                        <span>
+                                            <a href="javascript:;">
+                                                19, اكتوبر, 2024
+                                            </a>
+                                        </span>
+                                        <h5>
+                                            <a href="javascript:;">
+                                                هناك حقيقة مثبتة منذ زمن طويل
+                                            </a>
+                                        </h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Slide 2 -->
+                            <div class="swiper-slide">
+                                <div class="exclusive-content">
+                                    <div class="content-img">
+                                        <a href="javascript:;"><img src="assets/image/recent-1.jpg" alt></a>
+                                    </div>
+                                    <div class="publish-date">
+                                        <span>
+                                            <a href="javascript:;">
+                                                19, اكتوبر, 2024
+                                            </a>
+                                        </span>
+                                        <h5>
+                                            <a href="javascript:;">
+                                                هناك حقيقة مثبتة منذ زمن طويل
+                                            </a>
+                                        </h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Slide 3 -->
+                            <div class="swiper-slide">
+                                <div class="exclusive-content">
+                                    <div class="content-img">
+                                        <a href="javascript:;"><img src="assets/image/recent-1.jpg" alt></a>
+                                    </div>
+                                    <div class="publish-date">
+                                        <span>
+                                            <a href="javascript:;">
+                                                19, اكتوبر, 2024
+                                            </a>
+                                        </span>
+                                        <h5>
+                                            <a href="javascript:;">
+                                                هناك حقيقة مثبتة منذ زمن طويل
+                                            </a>
+                                        </h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="blog-post2">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-8">
+                    <div class="blog-border wow fadeInUp" data-wow-duration="2s" data-wow-delay="0.4s">
+                        <div class="category-and-select-area">
+                            <a href="javascript:;" class="category">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    style="fill: var(--text-color);">
+                                    <path
+                                        d="M12 2C6.486 2 2 6.486 2 12s4.486 10 10 10 10-4.486 10-10S17.514 2 12 2zM4 12c0-.899.156-1.762.431-2.569L6 11l2 2v2l2 2 1 1v1.931C7.061 19.436 4 16.072 4 12zm14.33 4.873C17.677 16.347 16.687 16 16 16v-1a2 2 0 0 0-2-2h-4v-3a2 2 0 0 0 2-2V7h1a2 2 0 0 0 2-2v-.411C17.928 5.778 20 8.65 20 12a7.947 7.947 0 0 1-1.67 4.873z">
+                                    </path>
+                                </svg>
+                                رياضة
+                            </a>
+                        </div>
+                        <div class="row g-4 gy-5">
+                            <div class="col-md-6">
+                                <div class="blog-card">
+                                    <div class="blog-card-img-wrap">
+                                        <a href="javascript:;">
+                                            <img src="assets/image/blogs/foot-1.jpg" alt>
+                                        </a>
+                                    </div>
+                                    <div class="blog-content">
+                                        <div class="author-area">
+                                            <ul>
+                                                <li>
+                                                    تاريخ النشر 16 اكتوبر 2024
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <h5>
+                                            <a href="javascript:;">
+                                                هناك حقيقة مثبتة منذ زمن طويل وهي أن
+                                            </a>
+                                        </h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="blog-card">
+                                    <div class="blog-card-img-wrap">
+                                        <a href="javascript:;">
+                                            <img src="assets/image/blogs/foot-2.jpg" alt>
+                                        </a>
+                                    </div>
+                                    <div class="blog-content">
+                                        <div class="author-area">
+                                            <ul>
+                                                <li>
+                                                    تاريخ النشر 16 اكتوبر 2024
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <h5>
+                                            <a href="javascript:;">
+                                                هناك حقيقة مثبتة منذ زمن طويل وهي أن
+                                            </a>
+                                        </h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="blog-card">
+                                    <div class="blog-card-img-wrap">
+                                        <a href="javascript:;">
+                                            <img src="assets/image/blogs/blog-3.jpg" alt>
+                                        </a>
+                                    </div>
+                                    <div class="blog-content">
+                                        <div class="author-area">
+                                            <ul>
+                                                <li>
+                                                    تاريخ النشر 16 اكتوبر 2024
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <h5>
+                                            <a href="javascript:;">
+                                                هناك حقيقة مثبتة منذ زمن طويل وهي أن
+                                            </a>
+                                        </h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="blog-card">
+                                    <div class="blog-card-img-wrap">
+                                        <a href="javascript:;">
+                                            <img src="assets/image/blogs/blog-1.jpg" alt>
+                                        </a>
+                                    </div>
+                                    <div class="blog-content">
+                                        <div class="author-area">
+                                            <ul>
+                                                <li>
+                                                    تاريخ النشر 16 اكتوبر 2024
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <h5>
+                                            <a href="javascript:;">
+                                                هناك حقيقة مثبتة منذ زمن طويل وهي أن
+                                            </a>
+                                        </h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="load-more-btn">
+                                <a href="javascript:;" class="hover-btn">
+                                    <svg class="arrow" width="10" height="10" viewBox="0 0 10 10"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M1 9L9 1M9 1C7.22222 1.33333 3.33333 2 1 1M9 1C8.66667 2.66667 8 6.33333 9 9"
+                                            stroke="#191919" stroke-width="1.5" stroke-linecap="round" />
+                                    </svg>
+                                    المزيد
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="blog-border wow fadeInUp" data-wow-duration="2s" data-wow-delay="0.4s">
+                        <div class="category-and-select-area">
+                            <a href="javascript:;" class="category">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    style="fill: var(--text-color);">
+                                    <path
+                                        d="M12 2C6.486 2 2 6.486 2 12s4.486 10 10 10 10-4.486 10-10S17.514 2 12 2zM4 12c0-.899.156-1.762.431-2.569L6 11l2 2v2l2 2 1 1v1.931C7.061 19.436 4 16.072 4 12zm14.33 4.873C17.677 16.347 16.687 16 16 16v-1a2 2 0 0 0-2-2h-4v-3a2 2 0 0 0 2-2V7h1a2 2 0 0 0 2-2v-.411C17.928 5.778 20 8.65 20 12a7.947 7.947 0 0 1-1.67 4.873z">
+                                    </path>
+                                </svg>
+                                أخبار
+                            </a>
+                        </div>
+                        <div class="row g-4 gy-5">
+                            <div class="col-md-6">
+                                <div class="blog-card">
+                                    <div class="blog-card-img-wrap">
+                                        <a href="javascript:;">
+                                            <img src="assets/image/blogs/blog-1.jpg" alt>
+                                        </a>
+                                    </div>
+                                    <div class="blog-content">
+                                        <div class="author-area">
+                                            <ul>
+                                                <li>
+                                                    تاريخ النشر 16 اكتوبر 2024
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <h5>
+                                            <a href="javascript:;">
+                                                هناك حقيقة مثبتة منذ زمن طويل وهي أن
+                                            </a>
+                                        </h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="blog-card">
+                                    <div class="blog-card-img-wrap">
+                                        <a href="javascript:;">
+                                            <img src="assets/image/blogs/blog-2.jpg" alt>
+                                        </a>
+                                    </div>
+                                    <div class="blog-content">
+                                        <div class="author-area">
+                                            <ul>
+                                                <li>
+                                                    تاريخ النشر 16 اكتوبر 2024
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <h5>
+                                            <a href="javascript:;">
+                                                هناك حقيقة مثبتة منذ زمن طويل وهي أن
+                                            </a>
+                                        </h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="blog-card">
+                                    <div class="blog-card-img-wrap">
+                                        <a href="javascript:;">
+                                            <img src="assets/image/blogs/blog-3.jpg" alt>
+                                        </a>
+                                    </div>
+                                    <div class="blog-content">
+                                        <div class="author-area">
+                                            <ul>
+                                                <li>
+                                                    تاريخ النشر 16 اكتوبر 2024
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <h5>
+                                            <a href="javascript:;">
+                                                هناك حقيقة مثبتة منذ زمن طويل وهي أن
+                                            </a>
+                                        </h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="blog-card">
+                                    <div class="blog-card-img-wrap">
+                                        <a href="javascript:;">
+                                            <img src="assets/image/blogs/blog-1.jpg" alt>
+                                        </a>
+                                    </div>
+                                    <div class="blog-content">
+                                        <div class="author-area">
+                                            <ul>
+                                                <li>
+                                                    تاريخ النشر 16 اكتوبر 2024
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <h5>
+                                            <a href="javascript:;">
+                                                هناك حقيقة مثبتة منذ زمن طويل وهي أن
+                                            </a>
+                                        </h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="load-more-btn">
+                                <a href="javascript:;" class="hover-btn">
+                                    <svg class="arrow" width="10" height="10" viewBox="0 0 10 10"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M1 9L9 1M9 1C7.22222 1.33333 3.33333 2 1 1M9 1C8.66667 2.66667 8 6.33333 9 9"
+                                            stroke="#191919" stroke-width="1.5" stroke-linecap="round" />
+                                    </svg>
+                                    المزيد
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="blog-border two wow fadeInUp" data-wow-duration="2s" data-wow-delay="0.4s">
+                        <div class="spot-light-btn">
+                            <span>
+                                بعض الاخبار المتنوعه
+                            </span>
+                        </div>
+                        <div class="row mb-40">
+                            <div class="col-lg-12">
+                                <ul class="nav nav-tabs" id="myTab5" role="tablist">
+                                    <li class="nav-item" role="presentation">
+                                        <button class="nav-link active" id="videos-tab" data-bs-toggle="tab"
+                                            data-bs-target="#videos" type="button" role="tab" aria-controls="videos"
+                                            aria-selected="false" tabindex="-1">فيديوهات</button>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        <button class="nav-link" id="photos-tab" data-bs-toggle="tab"
+                                            data-bs-target="#photos" type="button" role="tab" aria-controls="photos"
+                                            aria-selected="false" tabindex="-1">صور</button>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="row ">
+                            <div class="col-lg-12">
+                                <div class="tab-content" id="myTabContent5">
+                                    <div class="tab-pane fade show active" id="videos" role="tabpanel">
+                                        <div class="row g-4 gy-5">
+                                            <div class="col-md-6">
+                                                <div class="blog-card">
+                                                    <div class="blog-card-img-wrap">
+                                                        <a href="javascript:;">
+                                                            <img src="assets/image/blogs/video-1.jpg" alt>
+                                                        </a>
+                                                        <a href="javascript:;">
+                                                            <span>
+                                                                <svg width="24px" height="24px" viewBox="0 0 24 24"
+                                                                    fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                    <path
+                                                                        d="M16.6582 9.28638C18.098 10.1862 18.8178 10.6361 19.0647 11.2122C19.2803 11.7152 19.2803 12.2847 19.0647 12.7878C18.8178 13.3638 18.098 13.8137 16.6582 14.7136L9.896 18.94C8.29805 19.9387 7.49907 20.4381 6.83973 20.385C6.26501 20.3388 5.73818 20.0469 5.3944 19.584C5 19.053 5 18.1108 5 16.2264V7.77357C5 5.88919 5 4.94701 5.3944 4.41598C5.73818 3.9531 6.26501 3.66111 6.83973 3.6149C7.49907 3.5619 8.29805 4.06126 9.896 5.05998L16.6582 9.28638Z"
+                                                                        stroke="#fff" stroke-width="2"
+                                                                        stroke-linejoin="round" />
+                                                                </svg>
+                                                            </span>
+                                                        </a>
+                                                    </div>
+                                                    <div class="blog-content">
+                                                        <div class="author-area">
+                                                            <ul>
+                                                                <li>
+                                                                    16 اكتوبر 2024
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                        <h5>
+                                                            <a href="javascript:;">
+                                                                تسليم وحدات سكنية بمختلف المشروعات لحاجزيها في العلمين
+                                                                الجديدة
+                                                            </a>
+                                                        </h5>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="blog-card">
+                                                    <div class="blog-card-img-wrap">
+                                                        <a href="javascript:;">
+                                                            <img src="assets/image/blogs/video-2.jpg" alt>
+                                                        </a>
+                                                        <a href="javascript:;">
+                                                            <span>
+                                                                <svg width="24px" height="24px" viewBox="0 0 24 24"
+                                                                    fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                    <path
+                                                                        d="M16.6582 9.28638C18.098 10.1862 18.8178 10.6361 19.0647 11.2122C19.2803 11.7152 19.2803 12.2847 19.0647 12.7878C18.8178 13.3638 18.098 13.8137 16.6582 14.7136L9.896 18.94C8.29805 19.9387 7.49907 20.4381 6.83973 20.385C6.26501 20.3388 5.73818 20.0469 5.3944 19.584C5 19.053 5 18.1108 5 16.2264V7.77357C5 5.88919 5 4.94701 5.3944 4.41598C5.73818 3.9531 6.26501 3.66111 6.83973 3.6149C7.49907 3.5619 8.29805 4.06126 9.896 5.05998L16.6582 9.28638Z"
+                                                                        stroke="#fff" stroke-width="2"
+                                                                        stroke-linejoin="round" />
+                                                                </svg>
+                                                            </span>
+                                                        </a>
+                                                    </div>
+                                                    <div class="blog-content">
+                                                        <div class="author-area">
+                                                            <ul>
+                                                                <li>
+                                                                    16 اكتوبر 2024
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                        <h5>
+                                                            <a href="javascript:;">
+                                                                "الشاى بتاعى فين والإكرامية".. أمين الفتوى: تحسين خطير
+                                                                للرشوة
+                                                            </a>
+                                                        </h5>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="blog-card">
+                                                    <div class="blog-card-img-wrap">
+                                                        <a href="javascript:;">
+                                                            <img src="assets/image/blogs/video-3.jpg" alt>
+                                                        </a>
+                                                        <a href="javascript:;">
+                                                            <span>
+                                                                <svg width="24px" height="24px" viewBox="0 0 24 24"
+                                                                    fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                    <path
+                                                                        d="M16.6582 9.28638C18.098 10.1862 18.8178 10.6361 19.0647 11.2122C19.2803 11.7152 19.2803 12.2847 19.0647 12.7878C18.8178 13.3638 18.098 13.8137 16.6582 14.7136L9.896 18.94C8.29805 19.9387 7.49907 20.4381 6.83973 20.385C6.26501 20.3388 5.73818 20.0469 5.3944 19.584C5 19.053 5 18.1108 5 16.2264V7.77357C5 5.88919 5 4.94701 5.3944 4.41598C5.73818 3.9531 6.26501 3.66111 6.83973 3.6149C7.49907 3.5619 8.29805 4.06126 9.896 5.05998L16.6582 9.28638Z"
+                                                                        stroke="#fff" stroke-width="2"
+                                                                        stroke-linejoin="round" />
+                                                                </svg>
+                                                            </span>
+                                                        </a>
+                                                    </div>
+                                                    <div class="blog-content">
+                                                        <div class="author-area">
+                                                            <ul>
+                                                                <li>
+                                                                    16 اكتوبر 2024
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                        <h5>
+                                                            <a href="javascript:;">
+                                                                أحد أبطال القوات الجوية يكشف أكبر خطأ ارتكبته إسرائيل في
+                                                                حرب 73
+                                                            </a>
+                                                        </h5>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="blog-card">
+                                                    <div class="blog-card-img-wrap">
+                                                        <a href="javascript:;">
+                                                            <img src="assets/image/blogs/video-4.jpg" alt>
+                                                        </a>
+                                                        <a href="javascript:;">
+                                                            <span>
+                                                                <svg width="24px" height="24px" viewBox="0 0 24 24"
+                                                                    fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                    <path
+                                                                        d="M16.6582 9.28638C18.098 10.1862 18.8178 10.6361 19.0647 11.2122C19.2803 11.7152 19.2803 12.2847 19.0647 12.7878C18.8178 13.3638 18.098 13.8137 16.6582 14.7136L9.896 18.94C8.29805 19.9387 7.49907 20.4381 6.83973 20.385C6.26501 20.3388 5.73818 20.0469 5.3944 19.584C5 19.053 5 18.1108 5 16.2264V7.77357C5 5.88919 5 4.94701 5.3944 4.41598C5.73818 3.9531 6.26501 3.66111 6.83973 3.6149C7.49907 3.5619 8.29805 4.06126 9.896 5.05998L16.6582 9.28638Z"
+                                                                        stroke="#fff" stroke-width="2"
+                                                                        stroke-linejoin="round" />
+                                                                </svg>
+                                                            </span>
+                                                        </a>
+                                                    </div>
+                                                    <div class="blog-content">
+                                                        <div class="author-area">
+                                                            <ul>
+                                                                <li>
+                                                                    16 اكتوبر 2024
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                        <h5>
+                                                            <a href="javascript:;">
+                                                                الإفتاء: لا يجوز للزوجة أخذ مال من الزوج دون أذنه
+                                                            </a>
+                                                        </h5>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="load-more-btn">
+                                                <a href="javascript:;" class="hover-btn">
+                                                    <svg class="arrow" width="10" height="10" viewBox="0 0 10 10"
+                                                        xmlns="http://www.w3.org/2000/svg">
+                                                        <path
+                                                            d="M1 9L9 1M9 1C7.22222 1.33333 3.33333 2 1 1M9 1C8.66667 2.66667 8 6.33333 9 9"
+                                                            stroke="#191919" stroke-width="1.5"
+                                                            stroke-linecap="round" />
+                                                    </svg>
+                                                    المزيد من الفيديوهات
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane fade " id="photos" role="tabpanel">
+                                        <div class="row g-4 gy-5">
+                                            <div class="col-md-6">
+                                                <div class="blog-card">
+                                                    <div class="blog-card-img-wrap">
+                                                        <a href="javascript:;">
+                                                            <img src="assets/image/blogs/photo-1.jpg" alt>
+                                                        </a>
+                                                        <a href="javascript:;">
+                                                            <span>
+                                                                <svg width="24px" height="24px" viewBox="0 0 24 24"
+                                                                    fill="none" xmlns="http://www.w3.org/2000/svg"
+                                                                    stroke="#fff">
+
+                                                                    <g id="SVGRepo_bgCarrier" stroke-width="0" />
+
+                                                                    <g id="SVGRepo_tracerCarrier" stroke-linecap="round"
+                                                                        stroke-linejoin="round" />
+
+                                                                    <g id="SVGRepo_iconCarrier">
+                                                                        <circle cx="12" cy="13" r="3" stroke="#fff"
+                                                                            stroke-width="1.5" />
+                                                                        <path
+                                                                            d="M2 13.3636C2 10.2994 2 8.76721 2.74902 7.6666C3.07328 7.19014 3.48995 6.78104 3.97524 6.46268C4.69555 5.99013 5.59733 5.82123 6.978 5.76086C7.63685 5.76086 8.20412 5.27068 8.33333 4.63636C8.52715 3.68489 9.37805 3 10.3663 3H13.6337C14.6219 3 15.4728 3.68489 15.6667 4.63636C15.7959 5.27068 16.3631 5.76086 17.022 5.76086C18.4027 5.82123 19.3044 5.99013 20.0248 6.46268C20.51 6.78104 20.9267 7.19014 21.251 7.6666C22 8.76721 22 10.2994 22 13.3636C22 16.4279 22 17.9601 21.251 19.0607C20.9267 19.5371 20.51 19.9462 20.0248 20.2646C18.9038 21 17.3433 21 14.2222 21H9.77778C6.65675 21 5.09624 21 3.97524 20.2646C3.48995 19.9462 3.07328 19.5371 2.74902 19.0607C2.53746 18.7498 2.38566 18.4045 2.27673 18"
+                                                                            stroke="#fff" stroke-width="1.5"
+                                                                            stroke-linecap="round" />
+                                                                        <path d="M19 10H18" stroke="#fff"
+                                                                            stroke-width="1.5" stroke-linecap="round" />
+                                                                    </g>
+
+                                                                </svg>
+                                                            </span>
+                                                        </a>
+                                                    </div>
+                                                    <div class="blog-content">
+                                                        <div class="author-area">
+                                                            <ul>
+                                                                <li>
+                                                                    <a href="javascript:;">
+                                                                        16 اكتوبر 2024
+                                                                    </a>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                        <h5>
+                                                            <a href="javascript:;">
+                                                                منتخب مصر يختتم تدريباته استعداداً لمواجهة موريتانيا
+                                                                غداً
+                                                            </a>
+                                                        </h5>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="blog-card">
+                                                    <div class="blog-card-img-wrap">
+                                                        <a href="javascript:;">
+                                                            <img src="assets/image/blogs/photo-2.jpg" alt>
+                                                        </a>
+                                                        <a href="javascript:;">
+                                                            <span>
+                                                                <svg width="24px" height="24px" viewBox="0 0 24 24"
+                                                                    fill="none" xmlns="http://www.w3.org/2000/svg"
+                                                                    stroke="#fff">
+
+                                                                    <g id="SVGRepo_bgCarrier" stroke-width="0" />
+
+                                                                    <g id="SVGRepo_tracerCarrier" stroke-linecap="round"
+                                                                        stroke-linejoin="round" />
+
+                                                                    <g id="SVGRepo_iconCarrier">
+                                                                        <circle cx="12" cy="13" r="3" stroke="#fff"
+                                                                            stroke-width="1.5" />
+                                                                        <path
+                                                                            d="M2 13.3636C2 10.2994 2 8.76721 2.74902 7.6666C3.07328 7.19014 3.48995 6.78104 3.97524 6.46268C4.69555 5.99013 5.59733 5.82123 6.978 5.76086C7.63685 5.76086 8.20412 5.27068 8.33333 4.63636C8.52715 3.68489 9.37805 3 10.3663 3H13.6337C14.6219 3 15.4728 3.68489 15.6667 4.63636C15.7959 5.27068 16.3631 5.76086 17.022 5.76086C18.4027 5.82123 19.3044 5.99013 20.0248 6.46268C20.51 6.78104 20.9267 7.19014 21.251 7.6666C22 8.76721 22 10.2994 22 13.3636C22 16.4279 22 17.9601 21.251 19.0607C20.9267 19.5371 20.51 19.9462 20.0248 20.2646C18.9038 21 17.3433 21 14.2222 21H9.77778C6.65675 21 5.09624 21 3.97524 20.2646C3.48995 19.9462 3.07328 19.5371 2.74902 19.0607C2.53746 18.7498 2.38566 18.4045 2.27673 18"
+                                                                            stroke="#fff" stroke-width="1.5"
+                                                                            stroke-linecap="round" />
+                                                                        <path d="M19 10H18" stroke="#fff"
+                                                                            stroke-width="1.5" stroke-linecap="round" />
+                                                                    </g>
+
+                                                                </svg>
+                                                            </span>
+                                                        </a>
+                                                    </div>
+                                                    <div class="blog-content">
+                                                        <div class="author-area">
+                                                            <ul>
+                                                                <li>
+                                                                    <a href="javascript:;">
+                                                                        16 اكتوبر 2024
+                                                                    </a>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                        <h5>
+                                                            <a href="javascript:;">
+                                                                منتخب مصر يختتم تدريباته استعدادا لمواجهة موريتانيا في
+                                                                تصفيات أمم إفريقيا..صور
+                                                            </a>
+                                                        </h5>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="blog-card">
+                                                    <div class="blog-card-img-wrap">
+                                                        <a href="javascript:;">
+                                                            <img src="assets/image/blogs/photo-3.jpg" alt>
+                                                        </a>
+                                                        <a href="javascript:;">
+                                                            <span>
+                                                                <svg width="24px" height="24px" viewBox="0 0 24 24"
+                                                                    fill="none" xmlns="http://www.w3.org/2000/svg"
+                                                                    stroke="#fff">
+
+                                                                    <g id="SVGRepo_bgCarrier" stroke-width="0" />
+
+                                                                    <g id="SVGRepo_tracerCarrier" stroke-linecap="round"
+                                                                        stroke-linejoin="round" />
+
+                                                                    <g id="SVGRepo_iconCarrier">
+                                                                        <circle cx="12" cy="13" r="3" stroke="#fff"
+                                                                            stroke-width="1.5" />
+                                                                        <path
+                                                                            d="M2 13.3636C2 10.2994 2 8.76721 2.74902 7.6666C3.07328 7.19014 3.48995 6.78104 3.97524 6.46268C4.69555 5.99013 5.59733 5.82123 6.978 5.76086C7.63685 5.76086 8.20412 5.27068 8.33333 4.63636C8.52715 3.68489 9.37805 3 10.3663 3H13.6337C14.6219 3 15.4728 3.68489 15.6667 4.63636C15.7959 5.27068 16.3631 5.76086 17.022 5.76086C18.4027 5.82123 19.3044 5.99013 20.0248 6.46268C20.51 6.78104 20.9267 7.19014 21.251 7.6666C22 8.76721 22 10.2994 22 13.3636C22 16.4279 22 17.9601 21.251 19.0607C20.9267 19.5371 20.51 19.9462 20.0248 20.2646C18.9038 21 17.3433 21 14.2222 21H9.77778C6.65675 21 5.09624 21 3.97524 20.2646C3.48995 19.9462 3.07328 19.5371 2.74902 19.0607C2.53746 18.7498 2.38566 18.4045 2.27673 18"
+                                                                            stroke="#fff" stroke-width="1.5"
+                                                                            stroke-linecap="round" />
+                                                                        <path d="M19 10H18" stroke="#fff"
+                                                                            stroke-width="1.5" stroke-linecap="round" />
+                                                                    </g>
+
+                                                                </svg>
+                                                            </span>
+                                                        </a>
+                                                    </div>
+                                                    <div class="blog-content">
+                                                        <div class="author-area">
+                                                            <ul>
+                                                                <li>
+                                                                    <a href="javascript:;">
+                                                                        16 اكتوبر 2024
+                                                                    </a>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                        <h5>
+                                                            <a href="javascript:;">
+                                                                سقوط سيارة ملاكى من أعلى كوبرى أكتوبر وإصابة قائدها..
+                                                                صور
+                                                            </a>
+                                                        </h5>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="blog-card">
+                                                    <div class="blog-card-img-wrap">
+                                                        <a href="javascript:;">
+                                                            <img src="assets/image/blogs/photo-4.jpg" alt>
+                                                        </a>
+                                                        <a href="javascript:;">
+                                                            <span>
+                                                                <svg width="24px" height="24px" viewBox="0 0 24 24"
+                                                                    fill="none" xmlns="http://www.w3.org/2000/svg"
+                                                                    stroke="#fff">
+
+                                                                    <g id="SVGRepo_bgCarrier" stroke-width="0" />
+
+                                                                    <g id="SVGRepo_tracerCarrier" stroke-linecap="round"
+                                                                        stroke-linejoin="round" />
+
+                                                                    <g id="SVGRepo_iconCarrier">
+                                                                        <circle cx="12" cy="13" r="3" stroke="#fff"
+                                                                            stroke-width="1.5" />
+                                                                        <path
+                                                                            d="M2 13.3636C2 10.2994 2 8.76721 2.74902 7.6666C3.07328 7.19014 3.48995 6.78104 3.97524 6.46268C4.69555 5.99013 5.59733 5.82123 6.978 5.76086C7.63685 5.76086 8.20412 5.27068 8.33333 4.63636C8.52715 3.68489 9.37805 3 10.3663 3H13.6337C14.6219 3 15.4728 3.68489 15.6667 4.63636C15.7959 5.27068 16.3631 5.76086 17.022 5.76086C18.4027 5.82123 19.3044 5.99013 20.0248 6.46268C20.51 6.78104 20.9267 7.19014 21.251 7.6666C22 8.76721 22 10.2994 22 13.3636C22 16.4279 22 17.9601 21.251 19.0607C20.9267 19.5371 20.51 19.9462 20.0248 20.2646C18.9038 21 17.3433 21 14.2222 21H9.77778C6.65675 21 5.09624 21 3.97524 20.2646C3.48995 19.9462 3.07328 19.5371 2.74902 19.0607C2.53746 18.7498 2.38566 18.4045 2.27673 18"
+                                                                            stroke="#fff" stroke-width="1.5"
+                                                                            stroke-linecap="round" />
+                                                                        <path d="M19 10H18" stroke="#fff"
+                                                                            stroke-width="1.5" stroke-linecap="round" />
+                                                                    </g>
+
+                                                                </svg>
+                                                            </span>
+                                                        </a>
+                                                    </div>
+                                                    <div class="blog-content">
+                                                        <div class="author-area">
+                                                            <ul>
+                                                                <li>
+                                                                    <a href="javascript:;">
+                                                                        16 اكتوبر 2024
+                                                                    </a>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                        <h5>
+                                                            <a href="javascript:;">
+                                                                محمد صلاح ينتظم في مران منتخب مصر استعدادًا لمباراتي
+                                                                موريتانيا
+                                                            </a>
+                                                        </h5>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="load-more-btn">
+                                                <a href="javascript:;" class="hover-btn">
+                                                    <svg class="arrow" width="10" height="10" viewBox="0 0 10 10"
+                                                        xmlns="http://www.w3.org/2000/svg">
+                                                        <path
+                                                            d="M1 9L9 1M9 1C7.22222 1.33333 3.33333 2 1 1M9 1C8.66667 2.66667 8 6.33333 9 9"
+                                                            stroke="#191919" stroke-width="1.5"
+                                                            stroke-linecap="round" />
+                                                    </svg>
+                                                    المزيد من الصور
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contect-section">
+                        <h3>
+                            اشترك للحصول على آخر تحديثاتنا
+                        </h3>
+                        <div class="input-area">
+                            <input type="email" placeholder="ادخل البريد الالكتروني" class>
+                            <button type="submit">
+                                <svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M15.9647 0.685806C16.0011 0.594942 16.01 0.495402 15.9904 0.399526C15.9707 0.303649 15.9233 0.215653 15.8541 0.146447C15.7849 0.0772403 15.6969 0.0298668 15.601 0.0101994C15.5052 -0.0094681 15.4056 -0.000564594 15.3147 0.0358061L0.76775 5.85481H0.76675L0.31475 6.03481C0.22914 6.06895 0.154635 6.1261 0.0994654 6.19994C0.0442956 6.27377 0.0106078 6.36142 0.00212322 6.4532C-0.00636132 6.54497 0.0106876 6.63731 0.0513867 6.72001C0.0920859 6.8027 0.154851 6.87254 0.23275 6.92181L0.64275 7.18181L0.64375 7.18381L5.63875 10.3618L8.81675 15.3568L8.81875 15.3588L9.07875 15.7688C9.12817 15.8464 9.19805 15.9089 9.28068 15.9493C9.36332 15.9897 9.45551 16.0066 9.54711 15.998C9.63871 15.9894 9.72617 15.9558 9.79985 15.9007C9.87354 15.8456 9.9306 15.7712 9.96475 15.6858L15.9647 0.685806ZM14.1317 2.57581L6.63775 10.0698L6.42275 9.73181C6.38336 9.66978 6.33078 9.6172 6.26875 9.57781L5.93075 9.36281L13.4247 1.86881L14.6027 1.39781L14.1327 2.57581H14.1317Z">
+                                    </path>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 wow fadeInLeft" data-wow-duration="2s">
+                    <div class="life-style-sidebar">
+                        <div class="sidebar-widget featured-post">
+                            <h6>
+                                تفضيلات القراء
+                            </h6>
+                            <div class="recent-post mb-20">
+                                <div class="recent-post-img">
+                                    <a href="javascript:;"><img src="assets/image/blogs/side-1.jpg" alt></a>
+                                </div>
+                                <div class="recent-post-content">
+                                    <a href="javascript:;">
+                                        16 اكتوبر 2024
+                                    </a>
+                                    <h5>
+                                        <a href="javascript:;">
+                                            ارتفاع جديد.. سعر الذهب الآن في بداية التعاملات وعيار 21 مفاجأة
+                                        </a>
+                                    </h5>
+                                </div>
+                            </div>
+                            <div class="recent-post mb-20">
+                                <div class="recent-post-img">
+                                    <a href="javascript:;"><img src="assets/image/blogs/side-2.jpg" alt></a>
+                                </div>
+                                <div class="recent-post-content">
+                                    <a href="javascript:;">
+                                        16 اكتوبر 2024
+                                    </a>
+                                    <h5>
+                                        <a href="javascript:;">
+                                            «القومي لبحوث الإسكان» يشارك في تطوير مشروعات شركة إعمار بالسعودية
+                                        </a>
+                                    </h5>
+                                </div>
+                            </div>
+                            <div class="recent-post mb-20">
+                                <div class="recent-post-img">
+                                    <a href="javascript:;"><img src="assets/image/blogs/side-3.jpg" alt></a>
+                                </div>
+                                <div class="recent-post-content">
+                                    <a href="javascript:;">
+                                        16 اكتوبر 2024
+                                    </a>
+                                    <h5>
+                                        <a href="javascript:;">
+                                            سعر الريال السعودي مقابل الجنيه المصري
+                                        </a>
+                                    </h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="sidebar-widget discover-post">
+                            <h6 class="discover-title">
+
+                                <svg class="arrow" width="10" height="10" viewBox="0 0 10 10" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M1 9L9 1M9 1C7.22222 1.33333 3.33333 2 1 1M9 1C8.66667 2.66667 8 6.33333 9 9"
+                                        stroke="white" stroke-width="1.5" stroke-linecap="round"></path>
+                                </svg>
+                                ابرز الكلمات
+                            </h6>
+                            <ul class="category">
+                                <li>
+                                    <a href="javascript:;">سياسة (10)</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">رياضة (05)</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">أخبار (02)</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">غزه (200)</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">اخبار دوليه (03)</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <a href="javascript:;" class="sidebar-add-image">
+                            <img src="assets/image/blogs/ad.jpg" alt>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer-section2 mt-120 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.2s">
+        <div class="footer-top">
+            <div class="container">
+                <div class="row ">
+                    <div class="col-lg-12 justify-content-center  d-flex mb-20">
+                        <div class="footer-top-content">
+                            <a href="index.html"><img src="assets/image/logo.png" width="256" alt="logo"></a>
+                        </div>
+                    </div>
+                    <div class="footer-list">
+                        <ul>
+                            <li><a href="javascript:;">الرئيسية
+                                    <svg class="arrow" width="10" height="10" viewBox="0 0 10 10"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M1 9L9 1M9 1C7.22222 1.33333 3.33333 2 1 1M9 1C8.66667 2.66667 8 6.33333 9 9"
+                                            stroke="#191919" stroke-width="1.5" stroke-linecap="round" />
+                                    </svg>
+                                </a></li>
+                            <li><a href="javascript:;">من نحن
+                                    <svg class="arrow" width="10" height="10" viewBox="0 0 10 10"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M1 9L9 1M9 1C7.22222 1.33333 3.33333 2 1 1M9 1C8.66667 2.66667 8 6.33333 9 9"
+                                            stroke="#191919" stroke-width="1.5" stroke-linecap="round" />
+                                    </svg>
+                                </a></li>
+                            <li><a href="javascript:;">سياسة
+                                    <svg class="arrow" width="10" height="10" viewBox="0 0 10 10"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M1 9L9 1M9 1C7.22222 1.33333 3.33333 2 1 1M9 1C8.66667 2.66667 8 6.33333 9 9"
+                                            stroke="#191919" stroke-width="1.5" stroke-linecap="round" />
+                                    </svg>
+                                </a></li>
+                            <li><a href="javascript:;">حوادث
+                                    <svg class="arrow" width="10" height="10" viewBox="0 0 10 10"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M1 9L9 1M9 1C7.22222 1.33333 3.33333 2 1 1M9 1C8.66667 2.66667 8 6.33333 9 9"
+                                            stroke="#191919" stroke-width="1.5" stroke-linecap="round" />
+                                    </svg>
+                                </a></li>
+                            <li><a href="javascript:;">رياضة
+                                    <svg class="arrow" width="10" height="10" viewBox="0 0 10 10"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M1 9L9 1M9 1C7.22222 1.33333 3.33333 2 1 1M9 1C8.66667 2.66667 8 6.33333 9 9"
+                                            stroke="#191919" stroke-width="1.5" stroke-linecap="round" />
+                                    </svg>
+                                </a></li>
+                            <li><a href="javascript:;">GAMING POST
+                                    <svg class="arrow" width="10" height="10" viewBox="0 0 10 10"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M1 9L9 1M9 1C7.22222 1.33333 3.33333 2 1 1M9 1C8.66667 2.66667 8 6.33333 9 9"
+                                            stroke="#191919" stroke-width="1.5" stroke-linecap="round" />
+                                    </svg>
+                                </a></li>
+                            <li><a href="javascript:;">اقتصاد وبورصة
+                                    <svg class="arrow" width="10" height="10" viewBox="0 0 10 10"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M1 9L9 1M9 1C7.22222 1.33333 3.33333 2 1 1M9 1C8.66667 2.66667 8 6.33333 9 9"
+                                            stroke="#191919" stroke-width="1.5" stroke-linecap="round" />
+                                    </svg>
+                                </a></li>
+                        </ul>
+                    </div>
+                    <div class="copyright-area">
+                        <p>
+                            All Rights Reserved mwatan, Developed and Designed by
+                            <a href="https://www.be-group.com/" target="_blank">BeGroup</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="assets/js/jquery-3.7.1.min.js"></script>
+    <script src="assets/js/jquery-ui.js"></script>
+
+    <script src="assets/js/waypoints.js"></script>
+    <script src="assets/js/jquery.counterup.min.js"></script>
+
+    <script src="assets/js/jquery.marquee.min.js"></script>
+
+    <script src="assets/js/wow.min.js"></script>
+
+    <script src="assets/js/popper.min.js"></script>
+
+    <script src="assets/js/swiper-bundle.min.js"></script>
+
+    <script src="assets/js/jquery.fancybox.min.js"></script>
+    <script src="assets/js/jquery.nice-select.min.js"></script>
+    <script src="assets/js/wow.min.js"></script>
+
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/boxicons.min.js"></script>
+
+    <script src="assets/js/custom.js"></script>
+</body>
+
+</html>
